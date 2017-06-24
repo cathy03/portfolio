@@ -1,0 +1,152 @@
+html, body, div, nav, p, a{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul, li, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 공통 해제 */
+
+
+img{
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+em{
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 670px;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #444;
+}
+
+
+.main{
+  position: relative;
+  overflow: hidden;
+  height: 850px;
+}
+
+.title-img img{
+  position: absolute;
+}
+.main .parallax{
+  position: absolute;
+}
+
+.tit {
+  overflow: hidden;
+  margin: 100px auto;
+}
+
+.tit-line {
+  margin: 0 90px 20px 90px;
+  border-top: 2px solid #000;
+}
+
+span{
+  float: left;
+  width: 210px;
+  margin: 0 20px 0 90px;
+}
+
+.graph{
+  height: 700px;
+  background-image: url(images/ss/ss_01_bg.jpg);
+  background-repeat: repeat-x;
+}
+
+.ss_01 {
+  overflow: hidden;
+}
+
+.ss_02 {
+  overflow: hidden;
+}
+
+.ss_03 .tit{
+  margin-bottom: 30px;
+}
+.ss_03 .text-2colume{
+  overflow: hidden;
+  padding: 0 90px;
+}
+.ss_03 em{
+  width: 450px;
+}
+.ss_04_box{
+  overflow: hidden;
+  padding-top: 80px;
+}
+.ss_04{
+  height: 45vw;
+  background-color: #fb1757;
+}
+.ss_04 img{
+  width: 100%;
+}
+
+.grey{
+  background-color: #f6f6f6;
+}
+
+.dark{
+  background-color: #7d8185;
+}
+
+.dark .tit .tit-line{
+  border-top: 1px solid #999;
+}
+
+.ss_06{
+  overflow: hidden;
+}
+.ss_06 em{
+  color: #fff;
+}
+.ss_06 img{
+  margin-bottom: 20px;
+}
+
+.ss_08 img {
+  width: 100%;
+}
+video{
+  float: left;
+  width: 260px;
+  height: auto;
+}
+.header{
+  overflow: hidden;
+}
+
+.close{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  float: right;
+  position: fixed;
+  background-color: #fff;
+  opacity: .5;
+  right: 10%;
+  margin-top: 160px;
+}
+.gif{
+  overflow: hidden;
+  width: 780px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+  .header, .title-img, .tit, .stit, .ss_01, .ss_02, .ss_03, .ss_06, .ss_07{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
