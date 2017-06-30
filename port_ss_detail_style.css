@@ -32,6 +32,7 @@ em{
   position: relative;
   overflow: hidden;
   height: 850px;
+  background-color: #d92354;
 }
 
 .title-img img{
@@ -128,15 +129,20 @@ video{
 }
 
 .close{
-  width: 40px;
-  height: 40px;
-  border-radius: 100px;
-  float: right;
-  position: fixed;
+  width: 50px;
+  height: 50px;
   background-color: #fff;
+  border-radius: 25px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
   opacity: .5;
-  right: 10%;
-  margin-top: 160px;
+  z-index: 1;
+  box-shadow: 0 8px 60px 0 rgba(0, 0, 0, 0.3);
+}
+.close img{
+  margin: 4px;
+
 }
 .gif{
   overflow: hidden;
