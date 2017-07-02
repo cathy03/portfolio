@@ -142,8 +142,10 @@ video{
 }
 .close img{
   margin: 4px;
-
+  width: 42px;
+  height: 42px;
 }
+
 .gif{
   overflow: hidden;
   width: 780px;
@@ -151,8 +153,74 @@ video{
   margin-bottom: 80px;
 }
 
+@media (min-width: 1080px) {
   .header, .title-img, .tit, .stit, .ss_01, .ss_02, .ss_03, .ss_06, .ss_07{
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media (max-width:1079px) {
+  img {
+    width: 100%;
+  }
+  span{
+    margin: 0 8vw  30px 0;
+    width: auto;
+  }
+  .tit{
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .tit em{
+    width: auto;
+  }
+
+  .tit-line {
+    margin: 0 0 20px 0;
+  }
+
+  .main{
+    height: 69vw;
+  }
+  .main .parallax{
+    width:150vw;
+  }
+  .graph{
+    height: auto;
+    background-image: none;
+    margin-bottom: 50px;
+  }
+
+  .ss_03 .text-2colume{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 0 0px;
+  }
+  .ss_03 em{
+    width: auto;
+  }
+  video{
+    float: none;
+
+  }
+
+  .gif{
+    overflow: hidden;
+    width: auto;
+    margin: 0 8vw;
+    margin-bottom: 80px;
+  }
+
+  br{
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .tit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

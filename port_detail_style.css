@@ -128,10 +128,12 @@ span{
 }
 .close img{
   margin: 4px;
+  width: 42px;
+  height: 42px;
 
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1080px) {
   .header, .title-img, .tit, .stit, .eva_03, .eva_04, .eva_05, .eva_06, .eva_07, .eva_08, .eva_09, .eva_10{
     width: 1080px;
     margin-left: auto;
@@ -139,32 +141,50 @@ span{
   }
 }
 
-@media (max-width:959px) {
+@media (max-width:1079px) {
   img {
     width: 100%;
   }
   span{
+    margin: 0 8vw  30px 0;
     width: auto;
-    margin: 0 30px;
   }
-  span img{
-    width: 50%;
+  .tit{
+    margin-left: 8vw;
+    margin-right: 8vw;
   }
-  .tit-line {
-    margin: 0 30px;
-  }
-  .tit {
-    margin: 30px auto;
-  }
-  .eva_09 span{
+  .tit em{
     width: auto;
-    margin: 0 30px;
   }
 
-  em{
+  .tit-line {
+    margin: 0 0 20px 0;
+  }
+
+  .main{
+    height: 69vw;
+  }
+  .main .parallax{
+    width:150vw;
+  }
+
+  .eva_04{
+    height: 120vw;
+  }
+
+  .eva_09 span{
+    margin: 0 8vw  30px 0;
+    width: auto;
+  }
+
+  br{
     display: none;
   }
-  .main{
-    height: 400px;
+}
+
+@media (max-width:768px) {
+  .tit {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }

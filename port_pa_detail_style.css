@@ -163,8 +163,10 @@ video{
 }
 .close img{
   margin: 4px;
-
+  width: 42px;
+  height: 42px;
 }
+
 .gif{
   overflow: hidden;
   width: 540px;
@@ -172,9 +174,94 @@ video{
   margin-bottom: 80px;
 }
 
-
+@media (min-width: 1080px) {
   .header, .title-img, .tit, .stit, .pa_01, .pa_02, .pa_03, .pa_05, .pa_06, .pa_07{
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media (max-width:1079px) {
+  img {
+    width: 100%;
+  }
+  span{
+    margin: 0 8vw 30px 0;
+    width: auto;
+  }
+  .tit{
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .tit em{
+    width: auto;
+  }
+
+  .tit-line {
+    margin: 0 0 20px 0;
+  }
+
+  .main{
+    height: 69vw;
+  }
+  .main .parallax{
+    width:150vw;
+  }
+  .graph{
+    height: auto;
+    background-image: none;
+    margin-bottom: 50px;
+  }
+  .pa_03 span{
+    margin-bottom: 0;
+  }
+  .pa_03 .text-2colume{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 0 0px;
+  }
+  .pa_06 span{
+    width: auto;
+  }
+  .pa_06 em{
+    margin-right: 0;
+  }
+  .pa_07_box .parallax{
+    width: 30vw;
+  }
+  .pa_07_box{
+    height: 100vw;
+  }
+  .pa_07 .parallax{
+    padding-left: 60vw;
+  }
+  br{
+    display: none;
+  }
+
+}
+
+@media (max-width:768px) {
+  .tit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  video{
+    float: none;
+
+  }
+  .pa_03 .text-2colume em{
+    float: none;
+  }
+
+  .pa_04 {
+    top: 0px;
+  }
+
+  .gif{
+    overflow: hidden;
+    width: auto;
+    margin: 0 8vw;
+    margin-bottom: 80px;
+  }
+}

@@ -70,6 +70,10 @@ body{
   letter-spacing: 1px;
   color:#fff;
 }
+.ctn_1, .ctn_2, .ctn_3{
+  float: left;
+  overflow: hidden;
+}
 
 ul{
   float:left;
@@ -91,7 +95,6 @@ li{
   color: #fff;
 }
 .ctn_1 .section_03 {
-  width: 200px;
   color: #999;
 }
 
@@ -122,7 +125,6 @@ li{
   color: #fff;
 }
 .ctn_3 .section_02 {
-  width: 200px;
   color: #999;
 }
 
@@ -142,20 +144,42 @@ li{
 }
 
 
-@media (max-width:599px) {
-  img {
-    width: 100%;
-    height: 186px;
+@media (max-width:768px) {
+  .chapter{
+    margin-top: 100px;
   }
-  .meta{
-    width: 100%;
+
+  .tit{
+    float: none;
+    margin-bottom: 30px;
   }
-  .floating li{
+  .tit-line{
+    margin-right: 0;
+  }
+
+  .ctn_1 .section_01 {
+    width: 200px;
+   }
+
+  .ctn_1 .section_02 {
+    display: none;
+  }
+
+  .ctn_2 .section_01{
     display: none;
   }
 }
 
-@media (min-width: 960px) {
+@media (max-width:900px){
+  .ctn_2 .section_00{
+    display: none;
+  }
+  .ctn_2 .section_01{
+    width: 148px;
+  }
+}
+
+@media (min-width: 940px) {
   .header, .body, .footer {
     width: 900px;
     margin-left: auto;

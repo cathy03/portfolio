@@ -130,9 +130,10 @@ span{
 }
 .close img{
   margin: 4px;
-
+  width: 42px;
+  height: 42px;
 }
-@media (min-width: 960px) {
+@media (min-width: 1080px) {
   .header, .title-img, .tit, .sc_01, .sc_02, .sc_03, .sc_04 {
     width: 1080px;
     margin-left: auto;
@@ -140,28 +141,48 @@ span{
   }
 }
 
-@media (max-width:959px) {
+@media (max-width:1079px) {
   img {
     width: 100%;
   }
   span{
+    margin: 0 8vw 30px 0;
     width: auto;
-    margin: 0 30px;
   }
-  span img{
-    width: 50%;
-  }
+
   .tit-line {
     margin: 0 30px;
   }
-  .tit {
-    margin: 30px auto;
-  }
 
-  em{
-    display: none;
+  .tit{
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .tit em{
+    width: auto;
   }
   .main{
-    height: 400px;
+    height: 69vw;
+  }
+  .main .parallax{
+    width:150vw;
+  }
+  .sc_02 .parallax{
+    margin-top: 0px;
+  }
+  .promo_01{
+    top: -40vw;
+    width: 45vw;
+  }
+  .promo_02{
+    position: absolute;
+    left: -250px;
+  }
+  .promo_03{
+    width: 45vw;
+    left: 30vw;
+  }
+  .dark-grey{
+    height: 100vw;
   }
 }
