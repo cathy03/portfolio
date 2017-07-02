@@ -175,8 +175,7 @@ span{
     width: 45vw;
   }
   .promo_02{
-    position: absolute;
-    left: -250px;
+    left: -20vw;
   }
   .promo_03{
     width: 45vw;
@@ -184,5 +183,30 @@ span{
   }
   .dark-grey{
     height: 100vw;
+  }
+}
+@media (max-width:768px) {
+  .tit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .sc_01 img{
+    top: -50px;
+  }
+  .promo_01{
+    top: -30vw;
+    right: 0px;
+
+  }
+  .promo_02{
+    left: -20vw;
+  }
+  .promo_03{
+    left: 30vw;
+    top: 30vw;
+  }
+  .grey{
+    padding-bottom:0px;
+
   }
 }

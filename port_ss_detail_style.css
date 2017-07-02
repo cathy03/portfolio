@@ -203,7 +203,6 @@ video{
   }
   video{
     float: none;
-
   }
 
   .gif{
@@ -222,5 +221,8 @@ video{
   .tit {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+  video{
+    width: 100%;
   }
 }
