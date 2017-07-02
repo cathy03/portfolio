@@ -167,8 +167,14 @@ a:hover{
   .header, .body, .footer{
     width: auto;
   }
-
-
+  .header{
+    margin-top: 50vw;
+    margin-bottom: 20vw;
+  }
+  .menu{
+    margin-top: 0px;
+  }
+  
   .image-and-desc{
     width: 100%;
     height: 33vh;

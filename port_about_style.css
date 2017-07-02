@@ -146,6 +146,14 @@ li{
 
 
 @media (max-width:768px) {
+  .header{
+    margin-top: 50vw;
+    margin-bottom: 20vw;
+  }
+  .menu{
+    margin-top: 0px;
+  }
+  
   .chapter{
     margin-top: 100px;
   }
