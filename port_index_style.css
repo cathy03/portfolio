@@ -87,6 +87,9 @@ a:hover{
   width: 100%;
   object-fit: cover;
 }
+.image-and-desc{
+  background-color: #dfdfdd;
+}
 
 .info{
   position: relative;
