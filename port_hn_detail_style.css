@@ -31,7 +31,7 @@ em{
   position: relative;
   overflow: hidden;
   height: 850px;
-  background-color: #d92354;
+  background-color: #c8d0d5;
 }
 
 .title-img img{
@@ -46,10 +46,6 @@ em{
   margin: 100px auto;
 }
 
-.tit-line {
-  margin: 0 90px 20px 90px;
-  border-top: 2px solid #000;
-}
 
 span{
   float: left;
@@ -57,71 +53,44 @@ span{
   margin: 0 20px 0 90px;
 }
 
-.graph{
-  height: 700px;
-  background-image: url(images/ss/ss_01_bg.jpg);
-  background-repeat: repeat-x;
+.ss_02, .ss_03, .ss_05 {
+  overflow: hidden;
+}
+.ss_02 em {
+  color: #fff;
 }
 
-.ss_01 {
-  overflow: hidden;
+.ss_05 {
+  height: 100vw;
 }
-
-.ss_02 {
-  overflow: hidden;
-}
-
-.ss_03 .tit{
-  margin-bottom: 30px;
-}
-.ss_03 .text-2colume{
-  overflow: hidden;
-  padding: 0 90px;
-}
-.ss_03 em{
-  width: 450px;
-}
-.ss_04_box{
-  overflow: hidden;
-  padding-top: 80px;
-}
-.ss_04{
-  height: 45vw;
-  background-color: #fb1757;
-}
-.ss_04 img{
+.bg{
   width: 100%;
 }
 
+.logo{
+  width: 81px;
+  margin: 200px auto 50px auto;
+}
+.ss_06 em{
+  display: block;
+  float: none;
+  text-align: center;
+  margin: 0 auto 200px auto;
+}
 .grey{
-  background-color: #f6f6f6;
+  background-color: #e3e5e7;
 }
 
 .dark{
-  background-color: #7d8185;
+  background-color: #7d8aab;
 }
 
-.dark .tit .tit-line{
-  border-top: 1px solid #999;
-}
 
-.ss_06{
-  overflow: hidden;
-}
-.ss_06 em{
-  color: #fff;
-}
-.ss_06 img{
-  margin-bottom: 20px;
-}
 
-.ss_08 img {
-  width: 100%;
-}
 video{
-  float: left;
-  width: 260px;
+  width: 400px;
   height: auto;
+
 }
 .header{
   overflow: hidden;
@@ -146,14 +115,13 @@ video{
 }
 
 .gif{
-  overflow: hidden;
-  width: 780px;
-  margin: 0 auto;
-  margin-bottom: 80px;
+  width: 400px;
+  margin: 0 auto 150px auto;
+
 }
 
 @media (min-width: 1080px) {
-  .header, .title-img, .tit, .stit, .ss_01, .ss_02, .ss_03, .ss_06, .ss_07{
+  .header, .title-img, .tit, .stit, .ss_01, .ss_02, .ss_03, .ss_06{
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -176,9 +144,6 @@ video{
     width: auto;
   }
 
-  .tit-line {
-    margin: 0 0 20px 0;
-  }
 
   .main{
     height: 69vw;
@@ -186,20 +151,9 @@ video{
   .main .parallax{
     width:150vw;
   }
-  .graph{
-    height: auto;
-    background-image: none;
-    margin-bottom: 50px;
-  }
 
-  .ss_03 .text-2colume{
-    margin-left: 8vw;
-    margin-right: 8vw;
-    padding: 0 0px;
-  }
-  .ss_03 em{
-    width: auto;
-  }
+
+
   video{
     float: none;
   }
