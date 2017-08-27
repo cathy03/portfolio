@@ -32,7 +32,7 @@ em{
   position: relative;
   overflow: hidden;
   height: 850px;
-  background-color: #1d3e47;
+  background-color: #f0f0f0;
 }
 
 .title-img img{
@@ -40,6 +40,7 @@ em{
 }
 .main .parallax{
   position: absolute;
+  width: 100%;
 }
 
 .tit {
