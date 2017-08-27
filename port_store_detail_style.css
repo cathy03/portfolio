@@ -31,7 +31,7 @@ em{
   position: relative;
   overflow: hidden;
   height: 850px;
-  background-color: #c8d0d5;
+  background-color: #fbad48;
 }
 
 .title-img img{
@@ -47,52 +47,42 @@ em{
   margin: 100px auto;
 }
 
-
 span{
   float: left;
   width: 210px;
   margin: 0 20px 0 90px;
 }
 
-.ss_02, .ss_03, .ss_05 {
+.ss_01 {
   overflow: hidden;
 }
-.ss_02 em {
-  color: #fff;
+
+.ss_02 {
+  overflow: hidden;
+}
+.ss_02 .app{
+  float: right;
+}
+.ss_02 span{
+  width : 100px;
+}
+.ss_03{
+  margin-bottom: 40px;
+}
+.ss_03 .tit{
+  margin-bottom: 80px;
 }
 
-.ss_05 {
-  height: 100vw;
-}
-.bg{
+.ss_04 img{
   width: 100%;
 }
 
-.logo{
-  width: 81px;
-  margin: 200px auto 50px auto;
-}
-.ss_06 em{
-  display: block;
-  float: none;
-  text-align: center;
-  margin: 0 auto 200px auto;
-}
 .grey{
-  background-color: #e3e5e7;
-}
-
-.dark{
-  background-color: #7d8aab;
-}
-
-
-
-video{
-  width: 400px;
-  height: auto;
+  background-color: #f6f6f6;
+  padding-bottom: 100px;
 
 }
+
 .header{
   overflow: hidden;
 }
@@ -115,14 +105,8 @@ video{
   height: 42px;
 }
 
-.gif{
-  width: 400px;
-  margin: 0 auto 150px auto;
-
-}
-
 @media (min-width: 1080px) {
-  .header, .title-img, .tit, .stit, .ss_01, .ss_02, .ss_03, .ss_06{
+  .header, .title-img, .tit, .stit, .ss_01, .ss_02, .ss_03, .ss_06, .ss_07{
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -141,10 +125,13 @@ video{
     margin-left: 8vw;
     margin-right: 8vw;
   }
-  em{
+  .tit em{
     width: auto;
   }
 
+  .tit-line {
+    margin: 0 0 20px 0;
+  }
 
   .main{
     height: 69vw;
@@ -152,9 +139,20 @@ video{
   .main .parallax{
     width:150vw;
   }
+  .graph{
+    height: auto;
+    background-image: none;
+    margin-bottom: 50px;
+  }
 
-
-
+  .ss_03 .text-2colume{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 0 0px;
+  }
+  .ss_03 em{
+    width: auto;
+  }
   video{
     float: none;
   }
@@ -166,6 +164,9 @@ video{
     margin-bottom: 80px;
   }
 
+  br{
+    display: none;
+  }
 }
 
 @media (max-width:768px) {
@@ -173,7 +174,9 @@ video{
     margin-top: 50px;
     margin-bottom: 50px;
   }
-
+  .ss_04 img{
+    width: 125vw;
+  }
   video{
     width: 100%;
   }
