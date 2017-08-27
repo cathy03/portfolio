@@ -1,0 +1,135 @@
+html, body, div, nav, p, a{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul, li, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 공통 해제 */
+
+
+img{
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+
+.main{
+  position: relative;
+  overflow: hidden;
+  background-color: #cad0e0;
+  height: 150vw;
+}
+
+.title-img img{
+  position: absolute;
+}
+.main .parallax{
+  position: absolute;
+  width: 100%;
+}
+
+
+
+.header{
+  overflow: hidden;
+}
+
+.close{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  opacity: .5;
+  z-index: 1;
+  box-shadow: 0 8px 60px 0 rgba(0, 0, 0, 0.3);
+}
+.close img{
+  margin: 4px;
+  width: 42px;
+  height: 42px;
+}
+
+@media (min-width: 1080px) {
+  .header, .title-img, .tit, .ss_01{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width:1079px) {
+  img {
+    width: 100%;
+  }
+  span{
+    margin: 0 8vw  30px 0;
+    width: auto;
+  }
+  .tit{
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .tit em{
+    width: auto;
+  }
+
+  .tit-line {
+    margin: 0 0 20px 0;
+  }
+
+  .main{
+    height: 69vw;
+  }
+  .main .parallax{
+    width:150vw;
+  }
+  .graph{
+    height: auto;
+    background-image: none;
+    margin-bottom: 50px;
+  }
+
+  .ss_03 .text-2colume{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 0 0px;
+  }
+  .ss_03 em{
+    width: auto;
+  }
+  video{
+    float: none;
+  }
+
+  .gif{
+    overflow: hidden;
+    width: auto;
+    margin: 0 8vw;
+    margin-bottom: 80px;
+  }
+
+  br{
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .tit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .ss_04 img{
+    width: 125vw;
+  }
+  video{
+    width: 100%;
+  }
+}
