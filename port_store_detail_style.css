@@ -106,7 +106,7 @@ span{
 }
 
 @media (min-width: 1080px) {
-  .header, .title-img, .tit, .stit, .ss_01, .ss_02, .ss_03, .ss_06, .ss_07{
+  .header, .title-img, .tit, .ss_01, .ss_02, .ss_03{
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -129,39 +129,17 @@ span{
     width: auto;
   }
 
-  .tit-line {
-    margin: 0 0 20px 0;
+  .ss_02 span{
+    width : auto;
   }
-
+  .ss_03 .tit{
+    margin-bottom: 0px;
+  }
   .main{
     height: 69vw;
   }
   .main .parallax{
     width:150vw;
-  }
-  .graph{
-    height: auto;
-    background-image: none;
-    margin-bottom: 50px;
-  }
-
-  .ss_03 .text-2colume{
-    margin-left: 8vw;
-    margin-right: 8vw;
-    padding: 0 0px;
-  }
-  .ss_03 em{
-    width: auto;
-  }
-  video{
-    float: none;
-  }
-
-  .gif{
-    overflow: hidden;
-    width: auto;
-    margin: 0 8vw;
-    margin-bottom: 80px;
   }
 
   br{
@@ -174,10 +152,5 @@ span{
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .ss_04 img{
-    width: 125vw;
-  }
-  video{
-    width: 100%;
-  }
+
 }
