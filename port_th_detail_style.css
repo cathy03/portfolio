@@ -17,11 +17,13 @@ img{
   vertical-align: bottom;
 }
 
+body{
+  background-color: #cad0e0;
+}
 
 .main{
   position: relative;
   overflow: hidden;
-  background-color: #cad0e0;
   height: 150vw;
 }
 
