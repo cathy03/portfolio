@@ -86,10 +86,10 @@ img{
   }
 
   .main{
-    height: 69vw;
+    height: 156vw;
   }
   .main .parallax{
-    width:150vw;
+    width:100vw;
   }
   .graph{
     height: auto;
@@ -126,10 +126,5 @@ img{
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .ss_04 img{
-    width: 125vw;
-  }
-  video{
-    width: 100%;
-  }
+
 }
