@@ -18,13 +18,13 @@ img{
 }
 
 body{
-  background-color: #cad0e0;
+  background-color: #fff;
 }
 
 .main{
   position: relative;
   overflow: hidden;
-  height: 150vw;
+  height: 110vw;
 }
 
 .title-img img{
