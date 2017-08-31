@@ -16,15 +16,25 @@ img{
   object-fit: cover;
   vertical-align: bottom;
 }
+em{
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 670px;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #444;
+}
 
 body{
-  background-color: #0f1113;
+  background-color: #fff;
 }
 
 .main{
   position: relative;
   overflow: hidden;
-  height: 133vw;
+  height: 850px;
+
 }
 
 .title-img img{
@@ -32,10 +42,25 @@ body{
 }
 .main .parallax{
   position: absolute;
-  width: 100%;
 }
 
+.tit {
+  overflow: hidden;
+  margin-top: 100px;
+}
 
+span{
+  float: left;
+  width: 210px;
+  margin: 0 20px 0 90px;
+}
+
+.ss_01 {
+  overflow: hidden;
+}
+.ss_02 img{
+  width: 100%;
+}
 
 .header{
   overflow: hidden;
@@ -60,7 +85,7 @@ body{
 }
 
 @media (min-width: 1080px) {
-  .header, .title-img {
+  .header, .title-img, .tit, .ss_01 {
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -77,13 +102,30 @@ body{
   }
 
   .main{
-    height: 156vw;
+    height: 69vw;
   }
+
   .main .parallax{
-    width:100vw;
+    width:150vw;
+  }
+
+  .tit{
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .tit em{
+    width: auto;
   }
 
   br{
     display: none;
   }
+}
+
+@media (max-width:768px) {
+  .tit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
 }
